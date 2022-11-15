@@ -1,0 +1,26 @@
+.b {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: all; 
+    transition-timing-function: linear;
+}
+.a{ width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+div.a:active{
+    width: 1200px;
+    background-color: red;
+}
+div.b:hover{
+    width: 1200px;
+    background-color :yellow;
+}
