@@ -1,0 +1,74 @@
+body{
+    background-color: teal;
+}
+
+/* Mobile display */
+@media screen and (max-width:480px){
+    body{
+        background-color: yellow;
+    }
+    h1{
+        font-size: 10px;
+    }
+    h1.ipad{
+        display:none;
+    }
+    h1.laptop{
+        display:none;
+    }
+    h1.display{
+        display:none;
+    }
+}
+/* ipad and tablet */
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-color: blueviolet;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h1.mobile{
+        display:none;
+    }
+    h1.laptop{
+        display:none;
+    }
+    h1.display{
+        display:none;
+    }
+}
+
+/* small screen and laptops */
+@media screen and (min-width:769px) and (max-width:1024px){
+    body{
+        background-color: forestgreen;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1.mobile{
+        display:none;
+    }
+    h1.ipad{
+        display:none;
+    }
+    h1.display{
+        display:none;
+    }
+}
+/* Desktop screen */
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    body{
+        background-color: olive;
+    }
+    h1.mobile{
+        display:none;
+    }
+    h1.ipad{
+        display:none;
+    }
+    h1.laptop{
+        display:none;
+    }    
+}
